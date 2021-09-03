@@ -15,3 +15,10 @@ RUN: composer install
 RUN: php initiateSimulator.php
 
 ```
+
+### Unit Test
+```
+RUN: ./vendor/bin/phpunit
+
+```
+
