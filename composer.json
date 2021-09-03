@@ -1,0 +1,32 @@
+{
+  "authors": [
+    {
+      "name": "Obinna Johnphill",
+      "email": "obinna.johnphill@googlemail.com",
+      "role": "Senior Developer"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "app"
+    ],
+    "psr-4": {
+      "Attack\\": "app/BattleSimulation",
+      "Blow\\": "app/BattleSimulation",
+      "Retaliation\\": "app/BattleSimulation",
+      "BlowFactory\\": "app/BattleSimulation",
+      "Describer\\": "app/BattleSimulation",
+      "CombatantFactory\\": "app/BattleSimulation",
+      "Simulation\\": "app/BattleSimulation",
+      "Turn\\": "app/BattleSimulation",
+      "Randomiser\\": "app/Helper",
+      "BattleMessages\\": "app/Helper",
+      "TextGenerator\\": "app/Helper"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "phpunit/phpunit": "^9.5",
+    "ext-curl": "*"
+  }
+}
