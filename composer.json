@@ -27,6 +27,7 @@
   "require": {
     "ext-json": "*",
     "phpunit/phpunit": "^9.5",
-    "ext-curl": "*"
+    "ext-curl": "*",
+    "mockery/mockery": "^1.4"
   }
 }

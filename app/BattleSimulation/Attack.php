@@ -47,14 +47,6 @@ class Attack extends Blow {
     }
 
     /**
-     * @return int
-     */
-    public function getBaseStrength()
-    {
-        return $this->strength;
-    }
-
-    /**
      * @return mixed
      */
     public function getRetaliation()
@@ -106,7 +98,7 @@ class Attack extends Blow {
     /**
      * @return bool
      */
-    public function applyDefence($defenceStrength )
+    public function applyDefence($defenceStrength)
     {
         $this->damage = $this->getStrength() - $defenceStrength;
         return true;
