@@ -60,6 +60,7 @@ class BattleMessages
             print(' We\'re calling a draw.'. PHP_EOL);
             print($vars['combatantOne'].' has '. $vars['healthOne']. PHP_EOL);
             print($vars['combatantTwo'].' has '. $vars['healthTwo']. PHP_EOL);
+            print(PHP_EOL);
         }
 
     }
@@ -124,6 +125,7 @@ class BattleMessages
         if(isset($vars['winner'])){
             print($vars['winner'] . ' has won ' .'(with '.$vars['health'] .' health left)' . PHP_EOL);
             print($vars['loser'] . ' is dead. Shame.' . PHP_EOL);
+            print(PHP_EOL);
         }
     }
 

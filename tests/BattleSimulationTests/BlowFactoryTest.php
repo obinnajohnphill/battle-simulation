@@ -6,17 +6,10 @@ use \App\BattleSimulation\BlowFactory;
 class BlowFactoryTest extends TestCase{
 
      private $blowfactory;
-     private $mock;
 
     protected function setUp():void
     {
         $this->blowfactory = new BlowFactory();
-        $this->mock =  Mockery::mock('Attack');
-    }
-
-    public function tearDown():void
-    {
-        Mockery::close();
     }
 
     public function testClassInstance(){
