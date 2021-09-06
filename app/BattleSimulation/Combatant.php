@@ -20,9 +20,13 @@ abstract class Combatant {
     protected $randomise;
     protected $blowFactory;
 
-    /**
+    /**     * @param \Randomiser|null $randomise
+     * @throws \Exception
+
      * @param $name
-     * @param \Randomiser|null $randomise
+     * @param \Randomiser|nul     * @param \Randomiser|null $randomise
+     * @throws \Exception
+    l $randomise
      * @throws \Exception
      */
     public function __construct($name, Randomiser $randomise = null) {
