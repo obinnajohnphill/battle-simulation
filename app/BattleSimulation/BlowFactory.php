@@ -18,11 +18,4 @@ class BlowFactory {
         return new Attack($strength, $stunning);
     }
 
-    /**
-     * @param $strength
-     * @return Retaliation
-     */
-    public function createRetaliation($strength) {
-        return new Retaliation($strength);
-    }
 }
