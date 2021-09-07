@@ -1,4 +1,4 @@
-# volopa-obinna-test
+# battle-simulation
 
 ### Project setup
 
